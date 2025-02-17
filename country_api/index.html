@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>live search</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+</head>
+<body>
+
+    <article class="loading hide-loading">
+        <div class="loader"></div>
+      </article>
+    <section class="live-filter">
+        <div class="search">
+            <p>🌍 Country Explorer</p>
+            <p>Search your favourite Country </p>
+           
+            <div class="storage-buttons">
+                <button type="button" id="viewStorage" class="storage-btn viewStorage">
+                    <i class="far fa-save"></i>
+                    <span class="tooltip">View History</span>
+                </button>
+                <button type="button" id="clearStorage" class="storage-btn clearStorage">
+                    <i class="far fa-trash-o"></i>
+                    <span class="tooltip">Clear History</span>
+                </button>
+            </div>
+
+            <div class="search-box-container">
+                <form action="" class="input-form">
+                    <input type="text" id="searchBox" class="search-box" placeholder="Enter country name or code..." required>
+                </form>
+            </div>
+           
+            
+        </div>
+
+       
+        <div class="user-info">
+            <ul class="user-list">
+               
+       >
+            </ul>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
